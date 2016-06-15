@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/titulo"
+            android:textStyle="bold"
+            android:id="@+id/titulo" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/modo" />
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:stretchColumns="*"
+        android:padding="3dip"
+        android:background="@drawable/layout_bg">
+
+        <TableRow
+            android:layout_weight="1">
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f0c0"
+                android:contentDescription="@string/forma"/>
+
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f0c1"
+                android:contentDescription="@string/forma"/>
+
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f0c2"
+                android:contentDescription="@string/forma"/>
+
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f0c3"
+                android:contentDescription="@string/forma"/>
+
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f0c4"
+                android:contentDescription="@string/forma"/>
+
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f0c5"
+                android:contentDescription="@string/forma"/>
+
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f0c6"
+                android:contentDescription="@string/forma"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1">
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f1c0"
+                android:contentDescription="@string/forma"/>
+
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f1c1"
+                android:contentDescription="@string/forma"/>
+
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f1c2"
+                android:contentDescription="@string/forma"/>
+
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f1c3"
+                android:contentDescription="@string/forma"/>
+
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f1c4"
+                android:contentDescription="@string/forma"/>
+
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f1c5"
+                android:contentDescription="@string/forma"/>
+
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f1c6"
+                android:contentDescription="@string/forma"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1">
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f2c0"
+                android:contentDescription="@string/forma"/>
+
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f2c1"
+                android:contentDescription="@string/forma"/>
+
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f2c2"
+                android:contentDescription="@string/forma"/>
+
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f2c3"
+                android:contentDescription="@string/forma"/>
+
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f2c4"
+                android:contentDescription="@string/forma"/>
+
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f2c5"
+                android:contentDescription="@string/forma"/>
+
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f2c6"
+                android:contentDescription="@string/forma"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1">
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f3c0"
+                android:contentDescription="@string/forma"/>
+
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f3c1"
+                android:contentDescription="@string/forma"/>
+
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f3c2"
+                android:contentDescription="@string/forma"/>
+
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f3c3"
+                android:contentDescription="@string/forma"/>
+
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f3c4"
+                android:contentDescription="@string/forma"/>
+
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f3c5"
+                android:contentDescription="@string/forma"/>
+
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f3c6"
+                android:contentDescription="@string/forma"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1">
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f4c0"
+                android:contentDescription="@string/forma"/>
+
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f4c1"
+                android:contentDescription="@string/forma"/>
+
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f4c2"
+                android:contentDescription="@string/forma"/>
+
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f4c3"
+                android:contentDescription="@string/forma"/>
+
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f4c4"
+                android:contentDescription="@string/forma"/>
+
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f4c5"
+                android:contentDescription="@string/forma"/>
+
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f4c6"
+                android:contentDescription="@string/forma"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1">
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f5c0"
+                android:contentDescription="@string/forma"/>
+
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f5c1"
+                android:contentDescription="@string/forma"/>
+
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f5c2"
+                android:contentDescription="@string/forma"/>
+
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f5c3"
+                android:contentDescription="@string/forma"/>
+
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f5c4"
+                android:contentDescription="@string/forma"/>
+
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f5c5"
+                android:contentDescription="@string/forma"/>
+
+            <ImageButton style="@style/C4Button"
+                android:id="@+id/f5c6"
+                android:contentDescription="@string/forma"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

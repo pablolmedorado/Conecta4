@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/datosJugadores">
+        <EditTextPreference
+            android:key="player1Name"
+            android:title="@string/nombreJugador1"
+            android:summary="@string/sumNombreJugador1"
+            android:defaultValue="Jugador 1"/>
+        <ListPreference
+            android:key="player1Color"
+            android:title="@string/colorJugador1"
+            android:summary="@string/sumColorJugador1"
+            android:entries="@array/coloresFichas"
+            android:entryValues="@array/coloresFichasCodigos"
+            android:dialogTitle="@string/eligeColor"
+            android:defaultValue="rojo" />
+        <EditTextPreference
+            android:key="player2Name"
+            android:title="@string/nombreJugador2"
+            android:summary="@string/sumNombreJugador2"
+            android:defaultValue="Jugador 2"/>
+        <ListPreference
+            android:key="player2Color"
+            android:title="@string/colorJugador2"
+            android:summary="@string/sumColorJugador2"
+            android:entries="@array/coloresFichas"
+            android:entryValues="@array/coloresFichasCodigos"
+            android:dialogTitle="@string/eligeColor"
+            android:defaultValue="naranja" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/ajustesJuego">
+        <CheckBoxPreference
+            android:key="music"
+            android:title="@string/musicaFondo"
+            android:summary="@string/sumMusicaFondo"
+            android:defaultValue="false" />
+        <ListPreference
+            android:key="mode"
+            android:title="@string/modoJuego"
+            android:summary="@string/sumModoJuego"
+            android:entries="@array/modosJuego"
+            android:entryValues="@array/numJugadores"
+            android:dialogTitle="@string/eligeModo"
+            android:defaultValue="1" />
+    </PreferenceCategory>
+</PreferenceScreen>

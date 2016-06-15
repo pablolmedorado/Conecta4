@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Conecta 4</string>
+    <string name="titulo">CONECTA 4</string>
+    <string name="forma">Ficha</string>
+    <string name="reiniciar">Reiniciar</string>
+    <string name="modo">Cambiar modo de juego</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="about">Acerca de</string>
+    <string name="reiniciar_confirm">¿Deseas reiniciar el juego?</string>
+    <string name="about_msg">Conecta 4 (también conocido como 4 en Raya en algunas versiones) es un juego de mesa para dos jugadores distribuido por Hasbro, en el que se introducen fichas en un tablero vertical con el objetivo de alinear cuatro consecutivas de un mismo color. Fue creado en 1974 por Ned Strongin y Howard Wexler para Milton Bradley Company.</string>
+    <string name="datosJugadores">Datos de los Jugadores</string>
+    <string name="nombreJugador1">Nombre del jugador 1</string>
+    <string name="sumNombreJugador1">Nombre que aparecerá en pantalla para el jugador 1</string>
+    <string name="nombreJugador2">Nombre del jugador 2</string>
+    <string name="sumNombreJugador2">Nombre que aparecerá en pantalla para el jugador 2</string>
+    <string name="ajustesJuego">Ajustes del Juego</string>
+    <string name="musicaFondo">Música de fondo</string>
+    <string name="sumMusicaFondo">Activa o desactiva la musica durante el juego</string>
+    <string name="modoJuego">Modo de Juego</string>
+    <string name="sumModoJuego">Selecciona el modo de juego</string>
+    <string name="eligeModo">Elige el modo de juego</string>
+    <string name="modo1jugador">Modo 1 jugador</string>
+    <string name="modo2jugadores">Modo 2 jugadores</string>
+    <string name="partidaTerminada">Partida terminada</string>
+    <string name="posicionIlegal">Posicion no permitida. Debe rellenar primero las posiciones bajas</string>
+    <string name="ganaLaPartida">ha ganado la partida</string>
+    <string name="colorJugador1">Color de ficha del jugador 1</string>
+    <string name="colorJugador2">Color de ficha del jugador 2</string>
+    <string name="sumColorJugador1">Permite modificar el color de la ficha que usará el jugador 1 durante el juego</string>
+    <string name="sumColorJugador2">Permite modificar el color de la ficha que usará el jugador 2 durante el juego</string>
+    <string name="eligeColor">Elige el color de la ficha</string>
+</resources>

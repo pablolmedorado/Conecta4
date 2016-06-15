@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="modosJuego">
+        <item>Un jugador</item>
+        <item>Dos jugadores</item>
+    </string-array>
+    <string-array name="numJugadores">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="coloresFichas">
+        <item>Rojo</item>
+        <item>Naranja</item>
+    </string-array>
+    <string-array name="coloresFichasCodigos">
+        <item>red</item>
+        <item>orange</item>
+    </string-array>
+</resources>
